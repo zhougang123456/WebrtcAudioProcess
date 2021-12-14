@@ -174,9 +174,6 @@
     <ClCompile Include="modules\audio_processing\agc2\rnn_vad\rnn_gru.cc">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="modules\audio_processing\agc2\rnn_vad\rnn_vad_tool.cc">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="modules\audio_processing\agc2\rnn_vad\spectral_features.cc">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -193,9 +190,6 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="modules\audio_processing\agc2\biquad_filter.cc">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="modules\audio_processing\agc2\compute_interpolated_gain_curve.cc">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="modules\audio_processing\agc2\fixed_digital_level_estimator.cc">
@@ -444,9 +438,6 @@
     <ClCompile Include="rtc_base\race_checker.cc">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="rtc_base\synchronization\mutex.cc">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="third_party\pffft\src\pffft.c">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -558,9 +549,6 @@
     <ClCompile Include="modules\audio_processing\transient\transient_suppressor_impl.cc">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="modules\audio_processing\transient\click_annotate.cc">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="modules\audio_processing\transient\file_utils.cc">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -628,9 +616,6 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="rtc_base\string_encode.cc">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="rtc_base\time_utils.cc">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="rtc_base\system_time.cc">
@@ -703,6 +688,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="webrtc_audio_process.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rtc_base\time_utils.cc">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
